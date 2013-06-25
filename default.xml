@@ -27,7 +27,7 @@
 
   <!--PZOSP Devices-->
   <project path="device/asus/grouper" name="platform_device_asus_grouper" remote="pz" revision="pzosp" />
-  <project path="device/asus/mako" name="platform_device_samsung_mako" remote="pz" revision="pzosp" />
+  <project path="device/asus/mako" name="platform_device_lge_mako" remote="pz" revision="pzosp" />
   <project path="device/asus/maguro" name="platform_device_samsung_maguro" remote="pz" revision="pzosp" />
   <project path="device/asus/toro" name="platform_device_samsung_toro" remote="pz" revision="pzosp" />
   <project path="device/asus/toroplus" name="platform_device_samsung_toroplus" remote="pz" revision="pzosp" />
