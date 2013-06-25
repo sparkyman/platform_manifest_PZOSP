@@ -21,7 +21,7 @@
            remote="aosp"
            sync-j="4" />
 
-<project path="build" name="platform_build" remote="pz" revision="pzosp">
+<project path="build" name="platform_android_build" remote="pz" revision="pzosp">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
@@ -316,7 +316,7 @@
   <project path="sdk" name="platform/sdk" />
   <project path="system/bluetooth" name="platform_system_bluetooth" remote="pz" revision="pzosp" />
   <project path="system/core" name="platform_system_core" remote="pz" revision="pzosp" />
-  <project path="system/extras" name="platform/system/extras" />
+  <project path="system/extras" name="platform_system_extras" remote="pz" revision="pzosp" />
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/security" name="platform/system/security" />
