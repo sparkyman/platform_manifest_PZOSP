@@ -240,6 +240,10 @@
   <project path="libnativehelper" name="platform/libnativehelper" />
   <project path="ndk" name="platform/ndk" />
 
+  <!--Kernels-->
+  <project path="kernel/lge/mako-cog" name="kernel_lge_mako-cog" remote="pz" revision="pzosp" />
+  <project path="kernel/samsung/tuna-cog" name="kernel_samsung_tuna-cog" remote="pz" revision="pzosp" />
+
   <!--Packages-->
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
