@@ -21,7 +21,7 @@
            remote="aosp"
            sync-j="4" />
 
-<project path="build" name="platform_build" remote="pz" revision="master">
+<project path="build" name="platform_build" remote="pz" revision="pzosp">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   
@@ -35,12 +35,12 @@
 
   <!--Externals-->
   <project path="abi/cpp" name="platform/abi/cpp" />
-  <project path="bionic" name="platform_bionic" remote="pz" revision="master" />
+  <project path="bionic" name="platform_bionic" remote="pz" revision="pzosp" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" />
   <project path="cts" name="platform/cts" />
-  <project path="dalvik" name="platform_dalvik" remote="pz" revision="master" />
+  <project path="dalvik" name="platform_dalvik" remote="pz" revision="pzosp" />
   <project path="development" name="platform/development" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" />
@@ -200,7 +200,7 @@
 
   <!--Frameworks-->
   <project path="frameworks/av" name="platform/frameworks/av" />
-  <project path="frameworks/base" name="platform_frameworks_base" remote="pz" revision="master" />
+  <project path="frameworks/base" name="platform_frameworks_base" remote="pz" revision="pzosp" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" />
@@ -257,12 +257,12 @@
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
-  <project path="packages/apps/Mms" name="platform_packages_apps_Mms" remote="pz" revision="master" />
+  <project path="packages/apps/Mms" name="platform_packages_apps_Mms" remote="pz" revision="pzosp" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
-  <project path="packages/apps/Phone" name="platform_packages_apps_Phone" remote="pz" revision="master" />
-  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="pz" revision="master" />
+  <project path="packages/apps/Phone" name="platform_packages_apps_Phone" remote="pz" revision="pzosp" />
+  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="pz" revision="pzosp" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
@@ -273,7 +273,7 @@
   <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" />
-  <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" />
+  <project path="packages/providers/ContactsProvider" name="platform_packages_providers_ContactsProvider" remote="pz" revision="pzosp" />
   <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" />
   <project path="packages/providers/DrmProvider" name="platform/packages/providers/DrmProvider" />
   <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" />
@@ -303,8 +303,8 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" />
   <project path="sdk" name="platform/sdk" />
-  <project path="system/bluetooth" name="platform/system/bluetooth" />
-  <project path="system/core" name="platform_system_core" remote="pz" revision="master" />
+  <project path="system/bluetooth" name="platform_system_bluetooth" remote="pz" revision="pzosp" />
+  <project path="system/core" name="platform_system_core" remote="pz" revision="pzosp" />
   <project path="system/extras" name="platform/system/extras" />
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
@@ -314,14 +314,14 @@
   <project path="tools/motodev" name="platform/tools/motodev" />
 
   <!--PZOSP Vendors-->
-  <project path="vendor/pzosp" name="platform_vendor_PZOSP" remote="pz" revision="master" />
-  <project path="vendor/htc" name="proprietary_vendor_htc" remote="pz" revision="master" />
-  <project path="vendor/lge/mako" name="proprietary_vendor_lge_mako" remote="pz" revision="master" />
-  <project path="vendor/motorola" name="proprietary__vendor_motorola" remote="pz" revision="master" />
-  <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="pz" revision="master" />
-  <project path="vendor/asus" name="proprietary_vendor_asus" remote="pz" revision="master" />
-  <project path="vendor/broadcom" name="proprietary_vendor_broadcom" remote="pz" revision="master" />
-  <project path="vendor/qcom" name="proprietary_vendor_qcom" remote="pz" revision="master" />
+  <project path="vendor/pzosp" name="platform_vendor_PZOSP" remote="pz" revision="pzosp" />
+  <project path="vendor/htc" name="proprietary_vendor_htc" remote="pz" revision="pzosp" />
+  <project path="vendor/lge/mako" name="proprietary_vendor_lge_mako" remote="pz" revision="pzosp" />
+  <project path="vendor/motorola" name="proprietary__vendor_motorola" remote="pz" revision="pzosp" />
+  <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="pz" revision="pzosp" />
+  <project path="vendor/asus" name="proprietary_vendor_asus" remote="pz" revision="pzosp" />
+  <project path="vendor/broadcom" name="proprietary_vendor_broadcom" remote="pz" revision="pzosp" />
+  <project path="vendor/qcom" name="proprietary_vendor_qcom" remote="pz" revision="pzosp" />
   <project path="vendor/imgtec" name="proprietary_vendor_imgtec" remote="tm" revision="cm-10.1" />
   <project path="vendor/invensense" name="proprietary_vendor_invensense" remote="tm" revision="cm-10.1" />
   <project path="vendor/nxp" name="proprietary_vendor_nxp" remote="tm" revision="cm-10.1" />
