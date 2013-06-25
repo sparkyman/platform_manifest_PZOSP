@@ -24,14 +24,14 @@
 <project path="build" name="platform_build" remote="pz" revision="pzosp">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  
-  <project groups="device" name="device/asus/grouper" revision="7fce7d56cb077e869b9509cd2770d92e8cf29dcc" upstream="master"/>
-  <project groups="device" name="device/samsung/maguro" revision="0f2c53e45841fd3f2ef3a5a26a4525392b3d4a58" upstream="master"/>
-  <project groups="device" name="device/samsung/toro" revision="a735e3fa56ad70fc00f112e1fb76ed7ee950d805" upstream="master"/>
-  <project groups="device" name="device/samsung/toroplus" revision="4e8ba13e1ba1a8876b254def2c889b507332b608" upstream="master"/>
-  <project groups="device" name="device/samsung/tuna" revision="5897310688b2d325dc2e437f6f3811e298b21810" upstream="master"/>
 
   <!--PZOSP Devices-->
+  <project path="device/asus/grouper" name="device_asus_grouper" remote="pz" revision="pzosp" />
+  <project path="device/asus/mako" name="device_samsung_mako" remote="pz" revision="pzosp" />
+  <project path="device/asus/maguro" name="device_samsung_maguro" remote="pz" revision="pzosp" />
+  <project path="device/asus/toro" name="device_samsung_toro" remote="pz" revision="pzosp" />
+  <project path="device/asus/toroplus" name="device_samsung_toroplus" remote="pz" revision="pzosp" />
+  <project path="device/asus/tuna" name="device_samsung_tuna" remote="pz" revision="pzosp" />
 
   <!--Externals-->
   <project path="abi/cpp" name="platform/abi/cpp" />
@@ -255,7 +255,7 @@
   <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
-  <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" />
+  <project path="packages/apps/Launcher2" name="platform_packages_apps_launcher2" remote="pz" revision="pzosp" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
   <project path="packages/apps/Mms" name="platform_packages_apps_mms" remote="pz" revision="pzosp" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
