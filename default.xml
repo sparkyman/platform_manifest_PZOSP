@@ -27,11 +27,11 @@
 
   <!--PZOSP Devices-->
   <project path="device/asus/grouper" name="platform_device_asus_grouper" remote="pz" revision="pzosp" />
-  <project path="device/asus/mako" name="platform_device_lge_mako" remote="pz" revision="pzosp" />
-  <project path="device/asus/maguro" name="platform_device_samsung_maguro" remote="pz" revision="pzosp" />
-  <project path="device/asus/toro" name="platform_device_samsung_toro" remote="pz" revision="pzosp" />
-  <project path="device/asus/toroplus" name="platform_device_samsung_toroplus" remote="pz" revision="pzosp" />
-  <project path="device/asus/tuna" name="platform_device_samsung_tuna" remote="pz" revision="pzosp" />
+  <project path="device/lge/mako" name="platform_device_lge_mako" remote="pz" revision="pzosp" />
+  <project path="device/samsung/maguro" name="platform_device_samsung_maguro" remote="pz" revision="pzosp" />
+  <project path="device/samsung/toro" name="platform_device_samsung_toro" remote="pz" revision="pzosp" />
+  <project path="device/samsung/toroplus" name="platform_device_samsung_toroplus" remote="pz" revision="pzosp" />
+  <project path="device/samsung/tuna" name="platform_device_samsung_tuna" remote="pz" revision="pzosp" />
 
   <!--Externals-->
   <project path="abi/cpp" name="platform/abi/cpp" />
