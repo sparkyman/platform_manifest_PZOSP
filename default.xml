@@ -316,8 +316,7 @@
   <!--PZOSP Vendors-->
   <project path="vendor/pzosp" name="platform_vendor_PZOSP" remote="pz" revision="pzosp" />
   <project path="vendor/htc" name="proprietary_vendor_htc" remote="pz" revision="pzosp" />
-  <project path="vendor/lge/mako" name="proprietary_vendor_lge_mako" remote="pz" revision="pzosp" />
-  <project path="vendor/motorola" name="proprietary__vendor_motorola" remote="pz" revision="pzosp" />
+  <project path="vendor/lge/mako" name="proprietary_vendor_lge" remote="pz" revision="pzosp" />
   <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="pz" revision="pzosp" />
   <project path="vendor/asus" name="proprietary_vendor_asus" remote="pz" revision="pzosp" />
   <project path="vendor/broadcom" name="proprietary_vendor_broadcom" remote="pz" revision="pzosp" />
