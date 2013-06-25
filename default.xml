@@ -26,12 +26,12 @@
   </project>
 
   <!--PZOSP Devices-->
-  <project path="device/asus/grouper" name="device_asus_grouper" remote="pz" revision="pzosp" />
-  <project path="device/asus/mako" name="device_samsung_mako" remote="pz" revision="pzosp" />
-  <project path="device/asus/maguro" name="device_samsung_maguro" remote="pz" revision="pzosp" />
-  <project path="device/asus/toro" name="device_samsung_toro" remote="pz" revision="pzosp" />
-  <project path="device/asus/toroplus" name="device_samsung_toroplus" remote="pz" revision="pzosp" />
-  <project path="device/asus/tuna" name="device_samsung_tuna" remote="pz" revision="pzosp" />
+  <project path="device/asus/grouper" name="platform_device_asus_grouper" remote="pz" revision="pzosp" />
+  <project path="device/asus/mako" name="platform_device_samsung_mako" remote="pz" revision="pzosp" />
+  <project path="device/asus/maguro" name="platform_device_samsung_maguro" remote="pz" revision="pzosp" />
+  <project path="device/asus/toro" name="platform_device_samsung_toro" remote="pz" revision="pzosp" />
+  <project path="device/asus/toroplus" name="platform_device_samsung_toroplus" remote="pz" revision="pzosp" />
+  <project path="device/asus/tuna" name="platform_device_samsung_tuna" remote="pz" revision="pzosp" />
 
   <!--Externals-->
   <project path="abi/cpp" name="platform/abi/cpp" />
@@ -255,7 +255,7 @@
   <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
-  <project path="packages/apps/Launcher2" name="platform_packages_apps_launcher2" remote="pz" revision="pzosp" />
+  <project path="packages/apps/Launcher2" name="platform_packages_apps_launcher" remote="pz" revision="pzosp" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
   <project path="packages/apps/Mms" name="platform_packages_apps_mms" remote="pz" revision="pzosp" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
