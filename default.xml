@@ -18,7 +18,13 @@
            fetch="git://github.com/TheMuppets/" />
 
   <remote  name="cm"
-           fetch="git://github.com/CyanogenMod" />
+           fetch="git://github.com/CyanogenMod/" />
+
+  <remote  name="cmdev"
+           fetch="git://github.com/loosethisskin/" />
+
+  <remote  name="ub"
+           fetch="git://github.com/UnicornButter/" />
 
   <default revision="refs/tags/android-4.2.2_r1.2"
            remote="aosp"
@@ -60,9 +66,9 @@
   <project path="external/bison" name="platform/external/bison" />
   <project path="external/blktrace" name="platform/external/blktrace" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
+  <project path="external/busybox" name="platform_external_busybox" remote="pz" revision="pzosp" />
   <project path="external/bsdiff" name="platform/external/bsdiff" />
   <project path="external/bzip2" name="platform/external/bzip2" />
-  <project path="external/busybox" name="platform_external_busybox" remote="pz" revision="pzosp" />
   <project path="external/checkpolicy" name="platform/external/checkpolicy" />
   <project path="external/chromium" name="platform/external/chromium" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" />
@@ -79,7 +85,7 @@
   <project path="external/easymock" name="platform/external/easymock" />
   <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" />
   <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" />
-  <project path="external/elfutils" name="platform/external/elfutils" />
+  <project path="external/elfutils" name="android_external_elfutils" remote="cmdev" revision="cm-10.1-linaro" />
   <project path="external/embunit" name="platform/external/embunit" />
   <project path="external/emma" name="platform/external/emma" />
   <project path="external/esd" name="platform/external/esd" />
@@ -106,7 +112,7 @@
   <project path="external/ipsec-tools" name="platform/external/ipsec-tools" />
   <project path="external/iptables" name="platform/external/iptables" />
   <project path="external/jack" name="platform/external/jack" />
-  <project path="external/javasqlite" name="platform/external/javasqlite" />
+  <project path="external/javasqlite" name="android_external_javasqlite" remote="cm" revision="cm-10.1" />
   <project path="external/javassist" name="platform/external/javassist" />
   <project path="external/jdiff" name="platform/external/jdiff" />
   <project path="external/jhead" name="platform/external/jhead" />
@@ -123,13 +129,13 @@
   <project path="external/liblzf" name="platform/external/liblzf" />
   <project path="external/libmtp" name="platform/external/libmtp" />
   <project path="external/libnfc-nci" name="android_external_libnfc-nci" remote="cm" revision="cm-10.1" />
-  <project path="external/libnfc-nxp" name="platform/external/libnfc-nxp" />
+  <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="cm" revision="cm-10.1" />
   <project path="external/libncurses" name="android_external_libncurses" remote="cm" revision="cm-10.1" />
   <project path="external/libnl-headers" name="platform/external/libnl-headers" />
   <project path="external/libogg" name="platform/external/libogg" />
   <project path="external/libpcap" name="platform/external/libpcap" />
   <project path="external/libphonenumber" name="platform/external/libphonenumber" />
-  <project path="external/libpng" name="platform/external/libpng" />
+  <project path="external/libpng" name="android_external_libpng" remote="cm" revision="cm-10.1" />
   <project path="external/libppp" name="platform/external/libppp" />
   <project path="external/libselinux" name="platform/external/libselinux" />
   <project path="external/libsepol" name="platform/external/libsepol" />
@@ -140,9 +146,9 @@
   <project path="external/libxml2" name="platform/external/libxml2" />
   <project path="external/libxslt" name="platform/external/libxslt" />
   <project path="external/libyuv" name="platform/external/libyuv" />
-  <project path="external/linux-tools-perf" name="platform/external/linux-tools-perf" />
+  <project path="external/linux-tools-perf" name="android_external_linux-tools-perf" remote="cmdev" revision="cm-10.1-linaro" />
   <project path="external/littlemock" name="platform/external/littlemock" />
-  <project path="external/llvm" name="platform/external/llvm" />
+  <project path="external/llvm" name="android_external_llvm" remote="cmdev" revision="cm-10.1-linaro" />
   <project path="external/lohit-fonts" name="platform/external/lohit-fonts" />
   <project path="external/markdown" name="platform/external/markdown" />
   <project path="external/mdnsresponder" name="platform/external/mdnsresponder" />
@@ -162,9 +168,9 @@
   <project path="external/openfst" name="platform/external/openfst" />
   <project path="external/openssh" name="platform/external/openssh" />
   <project path="external/openssl" name="platform/external/openssl" />
-  <project path="external/oprofile" name="platform/external/oprofile" />
+  <project path="external/oprofile" name="platform_external_oprofile" remote="pz" revision="pzosp" />
   <project path="external/ping" name="platform/external/ping" />
-  <project path="external/ping6" name="platform/external/ping6" />
+  <project path="external/ping6" name="android_external_ping6" remote="cmdev" revision="cm-10.1-linaro" />
   <project path="external/ppp" name="platform/external/ppp" />
   <project path="external/proguard" name="platform/external/proguard" />
   <project path="external/protobuf" name="platform/external/protobuf" />
@@ -180,7 +186,7 @@
   <project path="external/smali" name="platform/external/smali" />
   <project path="external/sonivox" name="platform/external/sonivox" />
   <project path="external/speex" name="platform/external/speex" />
-  <project path="external/sqlite" name="platform/external/sqlite" />
+  <project path="external/sqlite" name="android_external_sqlite" remote="cm" revision="cm-10.1" />
   <project path="external/srec" name="platform/external/srec" />
   <project path="external/srtp" name="platform/external/srtp" />
   <project path="external/stlport" name="platform/external/stlport" />
@@ -195,7 +201,7 @@
   <project path="external/tremolo" name="platform/external/tremolo" />
   <project path="external/v8" name="platform/external/v8" />
   <project path="external/valgrind" name="platform/external/valgrind" />
-  <project path="external/webkit" name="platform/external/webkit" />
+  <project path="external/webkit" name="platform_external_webkit" remote="pz" revision="pzosp" />
   <project path="external/webp" name="platform/external/webp" />
   <project path="external/webrtc" name="platform/external/webrtc" />
   <project path="external/wpa_supplicant_6" name="platform/external/wpa_supplicant_6" />
@@ -215,8 +221,8 @@
   <project path="frameworks/base" name="platform_frameworks_base" remote="pz" revision="pzosp" />
   <project path="frameworks/compile/libbcc" name="platform_frameworks_compile_libbcc" remote="pz" revision="pzosp" />
   <project path="frameworks/compile/linkloader" name="android_frameworks_compile_linkloader" remote="cm" revision="cm-10.1" />
-  <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" />
-  <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" />
+  <project path="frameworks/compile/mclinker" name="frameworks_compile_mclinker" remote="ub" revision="jb-mr1" />
+  <project path="frameworks/compile/slang" name="android_frameworks_compile_slang" remote="cmdev" revision="cm-10.1-linaro" />
   <project path="frameworks/ex" name="platform_frameworks_ex" remote="pz" revision="pzosp" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
@@ -230,7 +236,7 @@
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
   <project path="frameworks/opt/telephony" name="platform/frameworks/opt/telephony" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" />
-  <project path="frameworks/rs" name="platform/frameworks/rs" />
+  <project path="frameworks/rs" name="platform_frameworks_rs" remote="pz" revision="pzosp" />
   <project path="frameworks/support" name="platform/frameworks/support" />
   <project path="frameworks/testing" name="platform/frameworks/testing" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" />
@@ -303,21 +309,15 @@
   
   <!--System and Prebuilts-->
   <project path="pdk" name="platform/pdk" />
-  <project path="prebuilt" name="android_prebuilt" remote="cm" revision="cm-10.1" />
-  <project path="prebuilts/clang/darwin-x86/3.1" name="platform/prebuilts/clang/darwin-x86/3.1" groups="darwin" />
-  <project path="prebuilts/clang/darwin-x86/3.2" name="platform/prebuilts/clang/darwin-x86/3.2" groups="darwin" />
+  <project path="prebuilt" name="CyanogenMod/android_prebuilt" remote="cm" revision="cm-10.1" />
+  <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" />
+  <project path="prebuilts/eclipse-build-deps" name="platform/prebuilts/eclipse-build-deps" groups="notdefault,eclipse" />
+  <project path="prebuilts/eclipse-build-deps-sources" name="platform/prebuilts/eclipse-build-deps-sources" groups="notdefault,eclipse" /><project path="prebuilts/clang/darwin-x86/3.1" name="platform/prebuilts/clang/darwin-x86/3.1" groups="darwin" />
   <project path="prebuilts/clang/linux-x86/3.1" name="platform/prebuilts/clang/linux-x86/3.1" groups="linux" />
   <project path="prebuilts/clang/linux-x86/3.2" name="platform/prebuilts/clang/linux-x86/3.2" groups="linux" />
   <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" />
-  <project path="prebuilts/eclipse-build-deps" name="platform/prebuilts/eclipse-build-deps" groups="notdefault,eclipse" />
-  <project path="prebuilts/eclipse-build-deps-sources" name="platform/prebuilts/eclipse-build-deps-sources" groups="notdefault,eclipse" />
-  <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" groups="darwin,arm" />
-  <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" groups="darwin,arm" />
-  <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.7" groups="darwin,arm" revision="master" />
-  <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.7" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.7" groups="darwin,arm" revision="master" />
-  <project path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" groups="darwin,mips" />
-  <project path="prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" groups="darwin,x86" />
   <project path="prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.4.3" name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.4.3" revision="jb-dev" />
+  <project path="prebuilts/gcc/linux-x86/arm" name="platform_prebuilts_toolchain_4.4.3" remote="pz" revision="pzosp" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" groups="linux,arm" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" groups="linux,arm" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="linux,arm" revision="master" />
