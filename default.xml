@@ -315,7 +315,6 @@
   <project path="prebuilts/eclipse-build-deps-sources" name="platform/prebuilts/eclipse-build-deps-sources" groups="notdefault,eclipse" /><project path="prebuilts/clang/darwin-x86/3.1" name="platform/prebuilts/clang/darwin-x86/3.1" groups="darwin" />
   <project path="prebuilts/clang/linux-x86/3.1" name="platform/prebuilts/clang/linux-x86/3.1" groups="linux" />
   <project path="prebuilts/clang/linux-x86/3.2" name="platform/prebuilts/clang/linux-x86/3.2" groups="linux" />
-  <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" />
   <project path="prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.4.3" name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.4.3" revision="jb-dev" />
   <project path="prebuilts/gcc/linux-x86/arm" name="platform_prebuilts_toolchain_4.4.3" remote="pz" revision="pzosp" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" groups="linux,arm" />
