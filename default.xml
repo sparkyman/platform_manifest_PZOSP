@@ -220,10 +220,11 @@
   <!--Frameworks-->
   <project path="frameworks/av" name="platform/frameworks/av" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="pz" revision="pzosp" />
-  <project path="frameworks/compile/libbcc" name="platform_frameworks_compile_libbcc" remote="pz" revision="pzosp" />
-  <project path="frameworks/compile/linkloader" name="android_frameworks_compile_linkloader" remote="cm" revision="cm-10.1" />
-  <project path="frameworks/compile/mclinker" name="frameworks_compile_mclinker" remote="ub" revision="jb-mr1" />
-  <project path="frameworks/compile/slang" name="android_frameworks_compile_slang" remote="cmdev" revision="cm-10.1-linaro" />
+  <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
+  <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
+  <project path="frameworks/compile/llvm-ndk-cc" name="platform/frameworks/compile/llvm-ndk-cc" />
+  <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" />
+  <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" />
   <project path="frameworks/ex" name="platform_frameworks_ex" remote="pz" revision="pzosp" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
@@ -349,6 +350,11 @@
   <project path="system/vold" name="platform_android_system_vold" remote="pz" revision="pzosp" />
   <project path="tools/build" name="platform/tools/build" groups="toolsbuild" />
   <project path="tools/motodev" name="platform/tools/motodev" />
+  <project path="tools/base" name="platform/tools/base" />
+  <project path="tools/external/fat32lib" name="platform/tools/external/fat32lib" />
+  <project path="tools/external/gradle" name="platform/tools/external/gradle" />
+  <project path="tools/idea" name="platform/tools/idea" />
+  <project path="tools/swt" name="platform/tools/swt" />
 
   <!--PZOSP Vendors-->
   <project path="vendor/pzosp" name="platform_vendor_PZOSP" remote="pz" revision="pzosp" />
