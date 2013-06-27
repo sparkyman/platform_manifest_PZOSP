@@ -351,7 +351,6 @@
   <project path="tools/build" name="platform/tools/build" groups="toolsbuild" />
   <project path="tools/motodev" name="platform/tools/motodev" />
   <project path="tools/base" name="platform/tools/base" />
-  <project path="tools/external/fat32lib" name="platform/tools/external/fat32lib" />
   <project path="tools/external/gradle" name="platform/tools/external/gradle" />
   <project path="tools/idea" name="platform/tools/idea" />
   <project path="tools/swt" name="platform/tools/swt" />
