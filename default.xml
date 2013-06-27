@@ -57,7 +57,7 @@
   <project path="bootable/recovery" name="platform/bootable/recovery" />
   <project path="cts" name="platform/cts" />
   <project path="dalvik" name="platform_android_dalvik" remote="pz" revision="pzosp" />
-  <project path="development" name="platform/development" remote="pz" revision="pzosp" />
+  <project path="development" name="platform_development" remote="pz" revision="pzosp" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" />
   <project path="external/android-clat" name="platform/external/android-clat" />
