@@ -20,12 +20,6 @@
   <remote  name="cm"
            fetch="git://github.com/CyanogenMod/" />
 
-  <remote  name="cmdev"
-           fetch="git://github.com/loosethisskin/" />
-
-  <remote  name="ub"
-           fetch="git://github.com/UnicornButter/" />
-
   <default revision="master"
            remote="aosp"
            sync-j="4" />
