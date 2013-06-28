@@ -24,7 +24,7 @@
            remote="aosp"
            sync-j="4" />
 
-<project path="build" name="platform_android_build" remote="pz" revision="pzosp">
+<project path="build" name="platform_build" remote="pz" revision="pzosp">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
